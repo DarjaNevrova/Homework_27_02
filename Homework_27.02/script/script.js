@@ -19,7 +19,6 @@ function addCard(link, fullName){
 
     container.append(img, pFullName);
     root.append(container);
-
 };
 
 function rerender(){
@@ -61,4 +60,3 @@ fullName.value = '';
 
 
 rerender();
-
